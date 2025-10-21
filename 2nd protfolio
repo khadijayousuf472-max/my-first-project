@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple profile card</title>
+    <link rel="stylesheet" href="ctyle.css">
+</head>
+<body>
+    <div class="card">
+        <h1>My Profile Card</h1>
+        <img src="download.jfif" alt="girl" class="img">
+        <h2>Khadija</h2>
+        <p>I am web developer who loves website.</p>
+    </div>
+    
+</body>
+</html>
+--------------------------------------------------------------------------------------------------
+body{
+    background-color: #333;
+    color: black;
+ }
+ .card{
+    background-color: white;
+    border:1px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 60px auto;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+ }
+.img{
+    border-radius: 50%;
+}
+.card img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.card h2{
+    margin: 10px 0 5px;
+    color: #333;
+}
+.card p {
+    color: #555;
+    font-size: 14px;
+}
