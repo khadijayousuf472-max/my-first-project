@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>SmartWatch</h1>
+    <nav>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    </header
+        <section id="hero">
+            <img src="smartwatch.jfif" alt="watch">
+            <h2>The Future of SmartWatch</h2>
+            <p>Stay connected,stay fit, and look amazing with smartwatch X.</p>
+            <button>Buy Now</button>
+        </section>
+        <section id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Heart Rate Monitor</li>
+                <li>Sleep Tracker</li>
+                <li>Water Resistent</li>
+                <li>7-Day Battery</li>
+            </ul>
+        </section>
+        <section id="pricing">
+            <h2>Price:$199</h2>
+            <button>Order Now</button>
+        </section>
+        <footer id="contact">
+            <p>Contact: support@smartwatchx.com</p>
+            <p>&copy; 2025 SmartWatch</p>
+        </footer>
+</body>
+--------------------------------------------------------------------------------------------------------------
+ body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+ }
+ header{
+    background-color: #222;
+    color: white;
+    padding: 15px 0;
+ }
+ nav a{
+    color: white;
+    margin: 0;
+    text-decoration: none;
+ }
+ #hero{
+    background: url('watch.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+ }
+ button{
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+ }
+ section{
+    padding: 50px 20px;
+ }
+ footer{
+    background-color: #222;
+    color: white;
+    padding: 20px;
+ }
+</html>
