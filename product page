@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoddy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>Hoddies for Women</h1>
+    <nav>
+        <a href="#quality">Quality</a>
+        <a href="#price">Price</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    </header>
+    <section id="warm">
+        <img src="hooddy.webp" alt="hoody">
+        <h2>To keep Warm</h2>
+        <p>Our hoodies are crafted from premium, soft, and durable fabric that ensures long-lasting comfort.</p>
+        <button>Buy Now</button>
+    </section>
+    <section id="quality">
+        <h2>Quality</h2>
+        <ul>
+            <li>Best product</li>
+            <li>Best color</li>
+            <li>Best markiting</li>
+        </ul>
+    </section>
+    <section id="price">
+        <h2>Price</h2>
+        <p>Price: 158$ </p>
+        <button>Order Now</button>
+    </section>
+    <footer id="contact">
+        <p>Contact: Khadija123@gmail.com</p>
+        <p>&copy;2025 hoddy</p>
+    </footer>
+</body>
+</html>
+----------------------------------------------------------------
+body{
+    background-color: palevioletred;
+    color: #222;
+    text-align: center;
+    margin: 0;
+    font-family: Arial,sans-serif;
+}
+nav a{
+    color: black;
+    padding: 5px 10px;
+    margin: 10px;
+}
+#warm img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+button{
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+button:hover{
+    cursor: pointer;
+    background-color: pink;
+} 
+header{
+    margin: 10px;
+    padding:0 3px;
+    background-color: pink;
+    width: 100;
+    color: black;
+}
+footer{
+    background-color: pink;
+    color: black;
+}
