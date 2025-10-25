@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturant</title>
+    <link rel="stylesheet" href="second.css">
+</head>
+<body>
+    <header id="item">
+        <h1>Welcome to our Quick Bite Cafe</h1>
+        <ul>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#features">Features</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#blog">Blog</a>
+            <a href="#shop">Shop</a>
+            <a href="#elements">Elements</a>
+        </ul>
+    </header>
+    <section id="home">
+        <img src="resturant.jfif" alt="resturant">
+        <p>Quick Bite Caffe – where every bite is quick to serve and rich in flavor!</p>
+    </section>
+    <section id="about">
+        <h2>About Quick Bite Caffe</h2>
+        <p>Welcome to Quick Bite Caffe, your go-to spot for delicious food served fast and fresh! We believe great taste doesn’t have to wait — whether you’re grabbing a quick snack, a hearty meal, or your favorite coffee, we’ve got something to satisfy every craving. Step in, relax, and enjoy the perfect blend of speed, flavor, and comfort!</p>
+    </section>
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Fast Service</li>
+            <li>Fresh Ingredients</li>
+            <li>Variety of Menu</li>
+            <li>Cozy Ambience</li>
+            <li>Affordable Prices</li>
+            <li>Takeaway & Delivery</li>
+            <li>Friendly Staff</li>
+        </ul>
+    </section>
+    <section id="menu">
+        <h2>Menu</h2>
+        <h3>Beverages</h3>
+        <ul>
+            <li>Hot Coffee / Cold Coffee</li>
+            <li>Cappuccino / Latte / Espresso</li>
+            <li>Iced Tea / Lemonade</li>
+            <li>Milkshakes (Chocolate, Strawberry, Vanilla)</li>
+            <li>Fresh Juices & Smoothies</li>
+        </ul>
+        <h3>Snacks & Quick Bites</h3>
+        <ul>
+            <li>Sandwiches (Grilled, Club, Veg/Chicken)</li>
+            <li>Burgers (Cheese, Chicken, Veggie)</li>
+            <li>Fries & Peri Peri Fries</li>
+        </ul>
+        <h3>Main Dish</h3>
+        <ul>
+            <li>Pasta (White Sauce / Red Sauce)</li>
+            <li>Pizza (Margherita, BBQ Chicken, Veg Supreme)</li>
+            <li>Noodles / Fried Rice</li>
+        </ul>
+        <h3>Desserts</h3>
+        <ul>
+            <li>Brownies</li>
+            <li>Muffins & Cupcakes</li>
+            <li>Ice Cream</li>
+        </ul>
+        <button>Order Now</button>
+    </section>
+    <footer id="contact">
+        <p>Contact:khadija321@gmail.com</p>
+        <p>&copy;2025 Resturants</p>
+    </footer>
+</body>
+-----------------------------------------------------------------------------------------------------------------------
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#333;
+    text-align: center;
+    color: white;
+    line-height: 1.6;
+}
+header a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+header a:hover{
+     color: brown;
+}
+header{
+    background-color: whitesmoke;
+    color: black;
+    padding: 15px;
+    margin: 20px;
+}
+#features ul{
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#features li{
+     background-color: #555;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 200px;           /* fixed width for uniformity */
+    text-align: center;
+}
+#features li:hover{
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+section ul{
+    list-style: none;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+#home img{
+    border: 2px solid white;
+}
+#home p{
+background-color: brown;
+}
+#about p{
+    word-wrap:inherit;
+}
+footer{
+    background-color: whitesmoke;
+    margin: 15px;
+    padding: 15px;
+    color: black;
+    text-align: center;
+    background: linear-gradient(to right, #fff, #ccc);
+}
+#menu h3{
+    text-decoration: underline;
+    color: whitesmoke;
+}
+#menu ul{
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#menu li{
+    background-color: #555;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 200px;           /* fixed width for uniformity */
+    text-align: center;
+}
+#menu li:hover {
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+     background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+button {
+    background-color: #fff;
+    color: brown;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+#menu button {
+    margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+    header ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #features li,
+    #menu li {
+        width: 80%;
+    }
+}
+</html>
